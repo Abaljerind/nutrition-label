@@ -83,3 +83,8 @@ p {
 .medium {
   height: 5px;
 }
+
+/* daily-value dan isinya */
+.right {
+  justify-content: flex-end;
+}

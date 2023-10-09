@@ -98,3 +98,7 @@ p {
 .indent {
   margin-left: 1em;
 }
+
+.double-indent {
+  margin-left: 2em;
+}

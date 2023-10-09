@@ -89,6 +89,10 @@ p {
   justify-content: flex-end;
 }
 
+.daily-value p {
+  border-bottom: #888989 solid 1px;
+}
+
 /* indent */
 .indent {
   margin-left: 1em;

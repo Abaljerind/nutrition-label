@@ -23,6 +23,12 @@ h1 {
   margin: -4px 0;
 }
 
+/* untuk garis buatan */
+.divider {
+  border-bottom: #888989 solid 1px;
+  margin: 2px 0;
+}
+
 p {
   margin: 0;
 }

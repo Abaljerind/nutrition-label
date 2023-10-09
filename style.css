@@ -40,8 +40,8 @@ p {
   font-weight: 800;
 }
 
-/* end of header */
-/* divider large selector */
+/* akhir selector header dan isinya */
+/* selector untuk divider large */
 .large {
   height: 10px;
 }
@@ -52,8 +52,15 @@ p {
   border: 0;
 }
 
+/* calories-info dan semua didalamnya */
 .small-text {
   font-size: 0.85rem;
+}
+
+.calories-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .calories-info h2 {

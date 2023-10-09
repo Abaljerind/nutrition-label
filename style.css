@@ -89,9 +89,10 @@ p {
   justify-content: flex-end;
 }
 
-.daily-value p {
+.daily-value p:not(.no-divider) {
   border-bottom: #888989 solid 1px;
 }
+/* :not() pseudo-selector bisa digunakan untuk memilih semua element yang tidak sesuai / match dengan aturan CSS yang diberikan. Contoh diatas, memilih semua element p di dalam class daily-value tanpa class 'no-divider'. */
 
 /* indent */
 .indent {
